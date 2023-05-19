@@ -1,0 +1,28 @@
+.articleContainer {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-bottom: 130px;
+
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--yellow-color);
+    margin: 15px 0;
+}
+
+.articlesHeader {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmarkIcon {
+    cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+    opacity: 0.6;
+}

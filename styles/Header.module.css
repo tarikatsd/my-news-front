@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Old London";
+    src: url("/fonts/OldLondon.ttf");
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px var(--yellow-color) solid;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 100vw;
+}
+
+.title {
+    font-size: 40px;
+    font-family: "Old London";
+
+}
+
+.userIcon {
+    font-size: 22px;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.linkContainer {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.link {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: var(--yellow-color);
+
+}

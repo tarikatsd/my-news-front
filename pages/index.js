@@ -1,5 +1,7 @@
-import Home from '@/components/Home';
+import Home from '../components/Home';
 
-export default function Index() {
+function Index() {
   return <Home />;
 }
+
+export default Index;
