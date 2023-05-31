@@ -21,6 +21,7 @@ const store = configureStore({
 
 const persistor = persistStore(store);
 
+
 export default function App({ Component, pageProps }) {
   return (
     <Provider store={store}>
